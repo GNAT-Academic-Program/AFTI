@@ -1,0 +1,12 @@
+name = "ada_for_the_impatient"
+description = "Ada for the impatient"
+version = "0.1.0-dev"
+
+authors = ["Olivier Henley"]
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = ["learn", "ada", "impatient"]
+
+executables = ["ada_for_the_impatient"]
