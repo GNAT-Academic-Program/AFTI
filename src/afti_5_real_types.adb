@@ -2,8 +2,8 @@ with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Strings.Fixed; use Ada.Strings.Fixed;
 with Ada.Numerics; use Ada.Numerics;
 
-procedure  is
-AFTI_5_Real_Types
+procedure AFTI_5_Real_Types is
+
     -- IMPORTANT
     -- The following is the standard Ada Float definition on my machine:
     -- type Float is digits 6 range -16#0.FFFF_FF#E+32 .. 16#0.FFFF_FF#E+32;

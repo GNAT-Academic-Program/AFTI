@@ -2,6 +2,8 @@
 
 Ada For The Impatient
 
+*EASY AS PIE, IT'S ADA!*
+
 ```
 1- Hello Word (first) ... -> src/afti_1_hello_world.adb    
 2- Hello Word (second) .. -> src/afti_2_hello_world.adb    
