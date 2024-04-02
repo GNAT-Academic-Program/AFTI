@@ -2,6 +2,20 @@
 
 *EASY AS PIE, IT'S Ada!*
 
+## Prerequisite
+You already know another programming language
+
+## Building source code (optional)
+ - Install Alire on your machine
+ - Add the GAP Alire index
+ - `alr get afti`
+ - `cd afti*`
+ - `alr build`
+
+You will find the executables in `afti*/bin`
+
+## Content
+
 ```
 1- Hello Word (first) ... -> src/afti_1_hello_world.adb    
 2- Hello Word (second) .. -> src/afti_2_hello_world.adb    
