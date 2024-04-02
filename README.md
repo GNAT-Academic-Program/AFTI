@@ -1,6 +1,6 @@
 # AFTI
 
-*EASY AS PIE, IT'S ADA!*
+*EASY AS PIE, IT'S Ada!*
 
 ```
 1- Hello Word (first) ... -> src/afti_1_hello_world.adb    
