@@ -6,8 +6,8 @@
 You already know another programming language
 
 ## Building source code (optional)
- - Install Alire on your machine
- - Add the GAP Alire index
+ - [Install Alire on your machine](https://github.com/GNAT-Academic-Program/.github/blob/main/profile/readme.md#install-alire-an-ada-package-manager)
+ - [Add the GAP Alire index](https://github.com/GNAT-Academic-Program/.github/blob/main/profile/readme.md#add-the-gap-alire-index-important)
 ```
 alr get afti & cd afti* & alr build
 ```
