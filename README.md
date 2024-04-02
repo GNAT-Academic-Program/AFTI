@@ -1,6 +1,6 @@
 # AFTI - <sub><sup>Ada For The Impatient</sup></sub>
 
-*EASY AS PIE, IT'S Ada!*
+*EASY AS PIE, IT'S AFTI!*
 
 ## Prerequisite
 You already know another programming language
