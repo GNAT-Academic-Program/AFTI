@@ -5,7 +5,7 @@ with Ada.Numerics.Big_Numbers.Big_Integers; use  Ada.Numerics.Big_Numbers.Big_In
 procedure AFTI_4_Integer_Types is
 
     -- IMPORTANT:
-    -- The following is the tandard Ada Integer definition on my machine
+    -- The following is the standard Ada Integer definition on my machine
     -- type Integer is range -(2 ** 31) .. +(2 ** 31 - 1);
 
     -- TYPE DECLARATIONS --
@@ -50,21 +50,27 @@ procedure AFTI_4_Integer_Types is
 
     Min : Integer := Integer'First;
     -- Initialized to smallest Integer on Machine
+    -- This is a standard Ada type
 
     Max : Long_Long_Long_Integer := Long_Long_Long_Integer'Last;
     -- Initialized to biggest Long_Long_Long_Integer on Machine
+    -- This is a standard Ada type
 
     Very_Big : Big_Integer := 2**999;
     -- Like ... Very Big
+    -- This is a standard Ada type, (Ada 2022 onward)
+
+    ------------------------------------------------
+    -- User-defined types instantiation starts here:
 
     Bad_Dozen_1 : Integer; 
     -- Uninitialized, maybe 0 ...
-    -- Dont be surprised if you have garbage data inside Bad_Dozen_1
+    -- Don't be surprised if you have garbage data inside Bad_Dozen_1
 
     Bad_Dozen_2 : Integer := -1_000_000; 
-    -- WILL compile but, bad semantic attracts broken computations
+    -- WILL compile but, bad semantics attract broken computations
     -- Here the variable Bad_Dozen_2 is mapped to -1 million! 
-    -- Why would a dozen ever contains more than 12 "things"?
+    -- Why would a dozen ever contain more than 12 "things"?
 
     -- Dozen_1 : Dozen := -1000000; 
     -- WILL NOT compile
