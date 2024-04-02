@@ -60,9 +60,6 @@ procedure AFTI_4_Integer_Types is
     -- Like ... Very Big
     -- This is a standard Ada type, (Ada 2022 onward)
 
-    ------------------------------------------------
-    -- User-defined types instantiation starts here:
-
     Bad_Dozen_1 : Integer; 
     -- Uninitialized, maybe 0 ...
     -- Don't be surprised if you have garbage data inside Bad_Dozen_1
@@ -71,6 +68,9 @@ procedure AFTI_4_Integer_Types is
     -- WILL compile but, bad semantics attract broken computations
     -- Here the variable Bad_Dozen_2 is mapped to -1 million! 
     -- Why would a dozen ever contain more than 12 "things"?
+
+    ------------------------------------------------
+    -- User-defined types instantiation starts here:
 
     -- Dozen_1 : Dozen := -1000000; 
     -- WILL NOT compile
