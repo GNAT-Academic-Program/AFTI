@@ -5,14 +5,6 @@
 ## Prerequisite
 You already know another programming language
 
-## Building source code (optional)
- - [Install Alire on your machine](https://github.com/GNAT-Academic-Program/.github/blob/main/profile/readme.md#install-alire-an-ada-package-manager)
- - [Add the GAP Alire index](https://github.com/GNAT-Academic-Program/.github/blob/main/profile/readme.md#add-the-gap-alire-index-important)
-```
-alr get afti & cd afti* & alr build
-```
-Once built, you will find the executables in `afti*/bin`
-
 ## Content
 
 ```
@@ -23,3 +15,11 @@ Once built, you will find the executables in `afti*/bin`
 5- Real Types ........... -> src/afti_5_real_types.adb    
 6- Enumeration Types .... -> src/afti_6_enumeration_types.adb    
 ```
+
+## Building source code (optional)
+ - [Install Alire on your machine](https://github.com/GNAT-Academic-Program/.github/blob/main/profile/readme.md#install-alire-an-ada-package-manager)
+ - [Add the GAP Alire index](https://github.com/GNAT-Academic-Program/.github/blob/main/profile/readme.md#add-the-gap-alire-index-important)
+```
+alr get afti & cd afti* & alr build
+```
+Once built, you will find the executables in `afti*/bin`
