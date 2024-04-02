@@ -1,4 +1,4 @@
-# AFTI
+# AFTI - Ada For The Impatient
 
 *EASY AS PIE, IT'S Ada!*
 
