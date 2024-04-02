@@ -1,4 +1,4 @@
-# AFTI - <sub><sup>Small text</sup></sub>
+# AFTI - <sub><sup>Ada For The Impatient</sup></sub>
 
 *EASY AS PIE, IT'S Ada!*
 
