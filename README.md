@@ -5,6 +5,10 @@
 ## Prerequisite
 You already know another programming language
 
+## How to Use and Interpret
+
+"Ada For The Impatient" is a concise guide that accelerates learning Ada through intuitive, code-first, practical examples and targeted commentary, following the 80/20 principle for efficiency. We do our best to cover Ada's wide-ranging features and uncover hidden gems, equipping you with essential knowledge for useful projects.
+
 ## Content
 
 ```
