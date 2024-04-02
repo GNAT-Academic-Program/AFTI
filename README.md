@@ -8,11 +8,10 @@ You already know another programming language
 ## Building source code (optional)
  - Install Alire on your machine
  - Add the GAP Alire index
- - `alr get afti`
- - `cd afti*`
- - `alr build`
-
-You will find the executables in `afti*/bin`
+```
+alr get afti & cd afti* & alr build
+```
+Once built, you will find the executables in `afti*/bin`
 
 ## Content
 
